@@ -1,13 +1,13 @@
 --
--- This file is part of Dash Ninja.
--- https://github.com/elbereth/dashninja-db
+-- This file is part of TRC Ninja.
+-- https://github.com/terracoin/trcninja-db
 --
--- Dash Ninja is free software: you can redistribute it and/or modify
+-- TRC Ninja is free software: you can redistribute it and/or modify
 -- it under the terms of the GNU General Public License as published by
 -- the Free Software Foundation, either version 3 of the License, or
 -- (at your option) any later version.
 --
--- Dash Ninja is distributed in the hope that it will be useful,
+-- TRC Ninja is distributed in the hope that it will be useful,
 -- but WITHOUT ANY WARRANTY; without even the implied warranty of
 -- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 -- GNU General Public License for more details.
@@ -27,13 +27,13 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Dumping data for table `cmd_portcheck_config`
+-- Dumping data for table `cmd_pools_pubkey`
 --
 
-LOCK TABLES `cmd_portcheck_config` WRITE;
-/*!40000 ALTER TABLE `cmd_portcheck_config` DISABLE KEYS */;
-INSERT INTO `cmd_portcheck_config` VALUES (0,120100,'0.12.1.5',70206,0xBF0C6BBD),(1,120200,'0.12.2.0',70208,0xCEE2CAFF);
-/*!40000 ALTER TABLE `cmd_portcheck_config` ENABLE KEYS */;
+LOCK TABLES `cmd_pools_pubkey` WRITE;
+/*!40000 ALTER TABLE `cmd_pools_pubkey` DISABLE KEYS */;
+INSERT INTO `cmd_pools_pubkey` VALUES (1,'P2POOL','p2pool'),(0,'P2POOL','p2pool');
+/*!40000 ALTER TABLE `cmd_pools_pubkey` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -44,4 +44,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-10-28 21:36:40
+-- Dump completed on 2017-10-28 21:35:01

@@ -1,14 +1,14 @@
-# Dash Ninja Database (dashninja-db)
-By Alexandre (aka elbereth) Devilliers
+# TRC Ninja Database (trcninja-db)
+Based on Dash Ninja By Alexandre (aka elbereth) Devilliers
 
-Check the running live website at https://dashninja.pl
+Check the running live website at https://overview.terracoin.io
 
-This is part of what makes the Dash Ninja monitoring application.
+This is part of what makes the TRC Ninja monitoring application.
 It contains:
-- Database structure (MySQL)
+- Database structure (MySQL/MariaDB)
 
 ## Requirement:
-* You will need a running MySQL with a Dash Ninja database and user.
+* You will need a running MySQL/MariaDB with a TRC Ninja database and user.
 
 ## Optional:
 * A user for the public API with only SELECT ability.
